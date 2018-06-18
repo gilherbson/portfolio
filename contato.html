@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Vamos conversar?  
+        </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+     <script src="eitagiovannaaa.js"></script>
+
+</head>
+<body>
+  <header> 
+
+    <nav id="menu">
+        <ul>
+            <li class="INICIO"><a href="index.html" >INICIO</a></li>
+            <li class="QUEM SOU"><a href="sobre.html">QUEM SOU</a></li>
+            <li class="PORTFOLIO"><a href="trabalhos.html" >PORTFOLIO</a></li>
+            <li class="CONTATO"><a href="contato.html" >CONTATO</a></li>
+
+         </ul>
+     </nav>
+     <hr id="hrmenu">
+
+  </header>
+
+  <section>
+      <div id="esquerda"> <img id="imgs_lateral" src="contato1.jpg"></div>
+
+      <div id="direita">    
+
+       <h1 id="contato">Vamos conversar?</h1>
+
+       <form name="meuForm" method="post" id="formulario">
+          <div class="box">  
+            <label>
+              <input type="text" class="input_text" name="nome" id="name" value="Nome Completo" size="49"  /><br>
+ 
+            </label><br> 
+              <label>
+           <input type="text" class="input_text" name="email" id="email" value="email" size="49" /><br>
+            </label><br>
+ 
+           <label>
+           <textarea class="message" name="feedback" id="feedback" rows="4" cols="50">Escreva aqui a sua mensagem</textarea ><br><br>
+            <input id="enviarb" type="button" class="button" value="Enviar"  />
+
+            <input id="apagarb" type="button" class="button" value="Apagar"  />
+            </label>           
+          </div>
+         </form> 
+
+    </div>
+
+    <div id="imgs_contato">
+      <a href="https://www.instagram.com/gilherbson/" target="_blank">
+    <img src="instagram_gilherbson.png"></a> 
+
+    <a href="https://www.facebook.com/Gilherbson /" target="_blank">
+    <img src="facebook_gilherbson.png"></a>
+
+    <a href="https://twitter.com/gilherbson" target="_blank">
+    <img src="gilherbson_twitter.png"></a>
+
+    <a href="https://www.linkedin.com/in/gilherbson/" target="_blank">
+    <img src="gilherbson_in.png"></a>     
+        
+    </section>
+    <script>
+      $("#enviarb").on("click", function(){
+        alert("Clique em Ok pra confirmar?")
+
+        });
+
+       $("#apagarb").on("click", function(){
+        alert("Você quer mesmo apagar?")
+
+        });
+
+    </script>
+
+</body>
+</html>

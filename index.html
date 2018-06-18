@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Meu site, ninguém sai.  
+     </title>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     <meta charset="utf-8">  
+     <script src="eitagiovannaaa.js"></script>  
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+    
+</head>
+
+<body  id="index">
+    <header>    
+        <nav id="menu">
+        <ul>
+            <li class="INICIO"><a href="index.html" >INICIO</a></li>
+            <li class="QUEM SOU"><a href="sobre.html">QUEM SOU</a></li>
+            <li class="PORTFOLIO"><a href="trabalhos.html" >PORTFOLIO</a></li>
+            <li class="CONTATO"><a href="contato.html" >CONTATO</a></li>
+
+         </ul>
+     </nav>
+
+     <hr id="hrmenu"></header>
+
+    <section>
+
+        <div id="esquerda"><img id="imgs_lateral" src="teste.jpg" alt="Foto Gilherbson"></div> 
+
+        <div id="direita">         
+            </br> 
+           <h1 id="gilherbson">Gilherbson</br>    Almeida</h1>
+           <h3 id="subtitulo" class="linkA">Fotográfo, Design e blá blá blá...</h3> 
+        </div> 
+        
+    </section>
+
+    <script>
+        
+        $('body').on('mouseover', '#subtitulo', function() {
+        $("#subtitulo").removeClass("linkA");
+        $("#subtitulo").addClass("linkB");
+            });
+      $('body').on('mouseout', '#subtitulo', function() {
+        $("#subtitulo").removeClass("linkB");
+        $("#subtitulo").addClass("linkA");
+            });
+    </script>
+
+</body>
+</html>

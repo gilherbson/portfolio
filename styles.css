@@ -1,0 +1,193 @@
+
+
+
+
+
+
+/*Comum a todas as páginas*/
+
+body{
+	margin:0;
+	padding:0;
+	height:50%;	
+	background-color: #000000;	
+}
+
+#menu ul {
+    text-align: right;
+}
+
+#menu ul li { display: inline;
+text-align: left; }
+
+#menu ul li a {
+	font-family: actor Regular;
+    padding: 2px 10px;
+    color: #d6d6d6;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: #7a7a7a;
+}
+
+#menu ul li a:hover {
+    color: #7a7a7a;
+}
+
+#hrmenu{
+	width: 29%;
+	float: right;
+	border-bottom:2px;
+	color: #d6d6d6;
+	margin: 0;
+	padding: 0;
+}
+
+#esquerda{
+	display: inline;
+	width: 50%;
+	float:left;
+	padding: 0;
+}
+
+#imgs_lateral{
+	max-width: 100%;
+    height: auto;
+}
+#direita{
+	display: inline;
+	width: 50%;
+	float: right;	
+	margin: 0;
+}
+
+/*index*/
+
+#gilherbson{
+	color: #d68227;
+    font-family: Paytone One Regular, sans-serif;
+	text-align: left;
+	padding: 10px;
+    margin-bottom: 0;
+    margin-left: 5vw;
+    font-size: 7vw;
+}
+
+#subtitulo{
+ text-align: left;
+ font-family: Actor-Regular, sans-serif;
+ padding: 10px;
+ margin-top: 0; 
+ margin-left: 5vw;
+}
+.linkA {
+  color: #d6d6d6;
+
+}
+.linkB {
+  color: #d68227;
+}
+
+/*Quem sou*/
+
+#quem{
+
+	color: #d68227;
+	text-align: center;
+	font-family: Paytone One Regular;
+	font-size: 40px;
+	text-decoration: underline;
+	padding: 0;
+	margin-bottom: 10;
+	margin-top: 10;
+}
+
+#sobreeu{
+	text-align: justify;
+	font-family: Actor Regular;
+	padding: 10px;
+	color: #d6d6d6;
+	padding:12%
+	padding-top: 0;
+	margin-top: 3;
+}
+
+/*Contato*/
+
+.box input[type="text"], textarea{
+	width: 80%;
+	color: #7a7a7a;
+	background-color: #d6d6d6;
+}
+
+#imgs_contato{
+
+	float: center;
+	text-align: center;
+}
+
+#contato{
+	color: #d68227;
+	font-family: Paytone One Regular;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+#formulario{
+text-align: center;
+padding: 40px auto;
+margin: 5px;
+size: 49 auto;
+color: #7a7a7a;
+}
+
+#name, #email, #feedback{
+	border-radius: 7px;
+}
+
+.button{
+	border-radius: 7px;
+}
+
+form textarea.msg{
+    position:absolute;
+    color:#7a7a7a;
+  }
+
+
+/*portfolio*/
+p{
+	color: #d68227;
+}
+
+#port{
+
+	font-family: Paytone One Regular;
+	color: #d68227;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+#imgs_portf{
+margin: 0 auto;
+width: 43vw;
+float: center;
+}
+
+#imagns{
+	width: 77%;
+}
+
+div.figure {
+  width: 13vw;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  float: left;
+}
