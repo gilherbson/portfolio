@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Meu site, ninguém sai.  
+     </title>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     <meta charset="utf-8"> 
+     <script type="text/javascript" src="jquery-3.3.1.min.js"></script> 
+     <script type="text/javascript" src="a.js"></script>   
+     <script type="text/javascript" src="jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="coin-slider.min.js"></script>
+    <link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />   
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('#coin-slider').coinslider({ width: 1000, navigation: false, delay: 5000 });
+         });
+    </script>
+    
+</head>
+
+<body  id="index">
+    <header>    
+        <nav id="menu">
+        <ul>
+            <li class="INICIO"><a href="index.html" >INICIO</a></li>
+            <li class="QUEM SOU"><a href="sobre.html">QUEM SOU</a></li>
+            <li class="PORTFOLIO"><a href="trabalhos.html" >PORTFOLIO</a></li>
+            <li class="CONTATO"><a href="contato.html" >CONTATO</a></li>
+
+         </ul>
+     </nav>
+
+     <hr id="hrmenu"></header>
+
+     <div id='coin-slider'>
+  <a href="Dione_capa" target="_blank">
+    <img src='galeria.jpg' >
+    <span>
+      Description for img01
+    </span>
+  </a>
+  ......
+  ......
+  <a href="Dione_capa">
+    <img src='Dione_capa.jpg' >
+    <span>
+      Description for imgN
+    </span>
+  </a>
+</div>
+
+
+
+</body>
+</html>

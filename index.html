@@ -5,11 +5,9 @@
         Meu site, ninguém sai.  
      </title>
      <link rel="stylesheet" type="text/css" href="styles.css">
-     <meta charset="utf-8">  
-     <script src="eitagiovannaaa.js"></script>  
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-
+     <meta charset="utf-8"> 
+     <script type="text/javascript" src="jquery-3.3.1.min.js"></script> 
+     <script type="text/javascript" src="a.js"></script>   
     
 </head>
 
@@ -17,10 +15,10 @@
     <header>    
         <nav id="menu">
         <ul>
-            <li class="INICIO"><a href="index.html" >INICIO</a></li>
-            <li class="QUEM SOU"><a href="sobre.html">QUEM SOU</a></li>
-            <li class="PORTFOLIO"><a href="trabalhos.html" >PORTFOLIO</a></li>
-            <li class="CONTATO"><a href="contato.html" >CONTATO</a></li>
+            <li id="1" class="INICIO"><a href="index.html" >INICIO</a></li>
+            <li id="2" class="QUEM SOU"><a href="sobre.html">QUEM SOU</a></li>
+            <li id="3" class="PORTFOLIO"><a href="trabalhos.html" >PORTFOLIO</a></li>
+            <li id="4" class="CONTATO"><a href="contato.html" >CONTATO</a></li>
 
          </ul>
      </nav>
@@ -38,18 +36,6 @@
         </div> 
         
     </section>
-
-    <script>
-        
-        $('body').on('mouseover', '#subtitulo', function() {
-        $("#subtitulo").removeClass("linkA");
-        $("#subtitulo").addClass("linkB");
-            });
-      $('body').on('mouseout', '#subtitulo', function() {
-        $("#subtitulo").removeClass("linkB");
-        $("#subtitulo").addClass("linkA");
-            });
-    </script>
 
 </body>
 </html>
